@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    font-family: Consolas;
+}
+
+.header {
+    border: 1px solid black;
+    height: 90px;
+}
+
+.header .logo {
+    border: 1px solid #ffffff;
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+.header .logo img {
+    height: 70%;
+    margin-top: 15px;
+    float: left;
+    margin-left: 250px
+}
+
+.header .logo .content {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.header .menu {
+    border: 1px solid #ffffff;
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+.header .menu ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.header .menu ul li {
+    float: left;
+    margin: 15px 10px 0 10px;
+}
+.header .menu ul span {
+    float: left;
+    margin-top: 15px;
+}
+
+.quote {
+    border: 1px solid black;
+    height: 80px;
+    background-color: #6aa7dd;
+    text-align: center;
+}
+
+.quote .q {
+    margin-top: 15px;
+}
+
+.quote .p {
+    margin-left: 600px;
+}
+
+.main-content {
+    border: 1px solid black;
+    height: 470px;
+}
+
+.main-content .row .item {
+    border: 1px solid #ffffff;
+    float: left;
+    width: 30%;
+    margin: 20px;
+}
+
+.main-content .row .item .title {
+    text-align: center;
+}
+
+.footer {
+    border: 1px solid black;
+    height: 50px;
+    background-color: #6aa7dd;
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
